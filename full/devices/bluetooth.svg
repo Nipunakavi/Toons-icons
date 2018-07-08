@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+    <defs>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g transform="translate(0 32)">
+        <rect fill="#3f51b5" fill-rule="evenodd" width="32" height="44" x="8" y="-30" filter="url(#a)" rx="16" ry="16"/>
+        <path fill="none" stroke="#e8eaf6" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M17-1l14-14-7-7V6l7-7-14-14"/>
+    </g>
+</svg>

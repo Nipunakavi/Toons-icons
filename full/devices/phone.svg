@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+    <defs>
+        <filter id="a">
+            <feGaussianBlur in="SourceAlpha" stdDeviation=".8"/>
+            <feOffset dy=".4"/>
+            <feComponentTransfer>
+                <feFuncA slope=".3" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <rect ry="2" rx="2" y="2" x="12" height="44" width="24" fill="#212121" fill-rule="evenodd" filter="url(#a)"/>
+    <rect ry="0" rx="0" y="4" x="14" height="40" width="20" fill="#009688" fill-rule="evenodd"/>
+    <path opacity=".3" fill="#240000" d="M14 40h20v4H14z"/>
+    <circle r="5" cy="16" cx="24" fill="none" stroke="#e0f2f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M24 14v2m1 1l-1-1" fill="none" stroke="#e0f2f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle r="2" cy="36" cx="18" fill="#e0f2f1" fill-rule="evenodd"/>
+    <circle r="2" cy="36" cx="24" fill="#e0f2f1" fill-rule="evenodd"/>
+    <circle r="2" cy="36" cx="30" fill="#e0f2f1" fill-rule="evenodd"/>
+    <circle r="1" cy="42" cx="24" fill="#e0f2f1" fill-rule="evenodd"/>
+    <circle r="1" cy="42" cx="19" fill="#e0f2f1" fill-rule="evenodd"/>
+    <circle r="1" cy="42" cx="29" fill="#e0f2f1" fill-rule="evenodd"/>
+    <circle r="2" cy="30" cx="18" fill="#e0f2f1" fill-rule="evenodd"/>
+    <circle r="2" cy="30" cx="24" fill="#e0f2f1" fill-rule="evenodd"/>
+    <circle r="2" cy="30" cx="30" fill="#e0f2f1" fill-rule="evenodd"/>
+    <path opacity=".3" fill="#240000" d="M14 4h20v2H14z"/>
+</svg>
